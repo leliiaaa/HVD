@@ -23,7 +23,7 @@ body {
     transition: top 0.3s ease-out, left 0.3s ease-out;
 }
 
-.btn:hover {
-    top: calc(Math.random() * (100vh - var(--btn-height)));
-    left: calc(Math.random() * (100vw - var(--btn-width)));
-}
+    .btn:hover {
+        top: calc(Math.random() * (100vh - 30px)); /* Змініть розмір кнопки за потреби */
+        left: calc(Math.random() * (100vw - 60px)); /* Змініть розмір кнопки за потреби */
+    }
