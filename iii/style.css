@@ -47,7 +47,13 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 12px;
-    transition: background-color 0.3s ease;
+    position: relative;
+    transition: top 0.3s ease-out, left 0.3s ease-out;
+}
+
+.btn:hover {
+    top: calc(Math.random() * (100vh - var(--btn-height)));
+    left: calc(Math.random() * (100vw - var(--btn-width)));
 }
 
 .container {
